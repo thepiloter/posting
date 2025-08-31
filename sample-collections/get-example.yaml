@@ -1,0 +1,10 @@
+url: https://httpbin.org/get
+method: GET
+options:
+  verify_ssl: true
+  follow_redirects: true
+headers:
+  - name: User-Agent
+    value: Posting/2.7.1
+  - name: Accept
+    value: application/json

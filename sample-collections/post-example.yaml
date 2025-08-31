@@ -1,0 +1,16 @@
+url: https://httpbin.org/post
+method: POST
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Posting/2.7.1
+body: |
+  {
+    "message": "Hello from Posting!",
+    "timestamp": "${TIMESTAMP}",
+    "data": {
+      "test": true,
+      "values": [1, 2, 3]
+    }
+  }

@@ -1,0 +1,5 @@
+name: Sample API Collection
+description: A sample collection for testing the Posting HTTP client
+auth:
+  type: bearer_token
+  token: ${API_TOKEN}
